@@ -215,34 +215,28 @@
 
       const data = new FormData(form);
 
-      fetch('https://api.web3forms.com/submit', {
-        method: 'POST',
-        body: data
+      fetch(form.action, {
+        method: form.method || 'POST',
+        body: data,
+        headers: {
+          'Accept': 'application/json'
+        }
       })
-        .then(function (res) { return res.json(); })
-        .then(function (json) {
-          if (json.success) {
-            if (submitBtn) submitBtn.style.display = 'none';
-            if (success)   success.style.display   = 'block';
-            form.reset();
+        .then(function () {
+          if (submitBtn) submitBtn.style.display = 'none';
+          if (success)   success.style.display   = 'block';
+          form.reset();
 
-            // GA4
-            if (typeof gtag === 'function') {
-              gtag('event', 'generate_lead', {
-                event_category: 'Contact',
-                event_label:    'Aequis Legal Form Submit'
-              });
-            }
-            // Meta Pixel
-            if (typeof fbq === 'function') {
-              fbq('track', 'Lead');
-            }
-          } else {
-            if (submitBtn) {
-              submitBtn.textContent = 'Send Message →';
-              submitBtn.disabled = false;
-            }
-            if (error) error.style.display = 'block';
+          // GA4
+          if (typeof gtag === 'function') {
+            gtag('event', 'generate_lead', {
+              event_category: 'Contact',
+              event_label:    'Aequis Legal Form Submit'
+            });
+          }
+          // Meta Pixel
+          if (typeof fbq === 'function') {
+            fbq('track', 'Lead');
           }
         })
         .catch(function () {
