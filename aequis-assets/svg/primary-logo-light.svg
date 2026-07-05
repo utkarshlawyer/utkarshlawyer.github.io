@@ -1,0 +1,50 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+    
+    <circle cx="200" cy="200" r="145" fill="none" stroke="#10233D" stroke-width="1.6"/>
+    <circle cx="200" cy="200" r="139" fill="none" stroke="#10233D" stroke-width="1"/>
+    <circle cx="200" cy="200" r="100" fill="none" stroke="#10233D" stroke-width="1.4"/>
+    <circle cx="200" cy="58" r="2" fill="#10233D"/>
+    <circle cx="58" cy="200" r="2" fill="#10233D"/>
+    <circle cx="342" cy="200" r="2" fill="#10233D"/>
+    <text x="55.55" y="212.64" font-family="Liberation Serif, serif" font-size="20" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(-95.00 55.55 212.64)">A</text>
+<text x="59.31" y="164.92" font-family="Liberation Serif, serif" font-size="20" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(-76.00 59.31 164.92)"> </text>
+<text x="78.39" y="121.03" font-family="Liberation Serif, serif" font-size="20" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(-57.00 78.39 121.03)">E</text>
+<text x="110.73" y="85.74" font-family="Liberation Serif, serif" font-size="20" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(-38.00 110.73 85.74)"> </text>
+<text x="152.79" y="62.90" font-family="Liberation Serif, serif" font-size="20" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(-19.00 152.79 62.90)">Q</text>
+<text x="200.00" y="55.00" font-family="Liberation Serif, serif" font-size="20" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(0.00 200.00 55.00)"> </text>
+<text x="247.21" y="62.90" font-family="Liberation Serif, serif" font-size="20" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(19.00 247.21 62.90)">U</text>
+<text x="289.27" y="85.74" font-family="Liberation Serif, serif" font-size="20" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(38.00 289.27 85.74)"> </text>
+<text x="321.61" y="121.03" font-family="Liberation Serif, serif" font-size="20" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(57.00 321.61 121.03)">U</text>
+<text x="340.69" y="164.92" font-family="Liberation Serif, serif" font-size="20" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(76.00 340.69 164.92)"> </text>
+<text x="344.45" y="212.64" font-family="Liberation Serif, serif" font-size="20" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(95.00 344.45 212.64)">S</text>
+    <text x="342.80" y="225.18" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(280.00 342.80 225.18)">F</text>
+<text x="338.91" y="241.59" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(286.67 338.91 241.59)">I</text>
+<text x="333.14" y="257.43" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(293.33 333.14 257.43)">A</text>
+<text x="325.57" y="272.50" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(300.00 325.57 272.50)">T</text>
+<text x="316.31" y="286.59" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(306.67 316.31 286.59)"> </text>
+<text x="305.47" y="299.51" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(313.33 305.47 299.51)">J</text>
+<text x="293.20" y="311.08" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(320.00 293.20 311.08)">U</text>
+<text x="279.68" y="321.15" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(326.67 279.68 321.15)">S</text>
+<text x="265.08" y="329.58" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(333.33 265.08 329.58)">T</text>
+<text x="249.59" y="336.26" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(340.00 249.59 336.26)">I</text>
+<text x="233.44" y="341.09" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(346.67 233.44 341.09)">T</text>
+<text x="216.83" y="344.02" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(353.33 216.83 344.02)">I</text>
+<text x="200.00" y="345.00" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(360.00 200.00 345.00)">A</text>
+<text x="183.17" y="344.02" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(366.67 183.17 344.02)"> </text>
+<text x="166.56" y="341.09" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(373.33 166.56 341.09)">R</text>
+<text x="150.41" y="336.26" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(380.00 150.41 336.26)">U</text>
+<text x="134.92" y="329.58" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(386.67 134.92 329.58)">A</text>
+<text x="120.32" y="321.15" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(393.33 120.32 321.15)">T</text>
+<text x="106.80" y="311.08" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(400.00 106.80 311.08)"> </text>
+<text x="94.53" y="299.51" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(406.67 94.53 299.51)">C</text>
+<text x="83.69" y="286.59" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(413.33 83.69 286.59)">A</text>
+<text x="74.43" y="272.50" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(420.00 74.43 272.50)">E</text>
+<text x="66.86" y="257.43" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(426.67 66.86 257.43)">L</text>
+<text x="61.09" y="241.59" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(433.33 61.09 241.59)">U</text>
+<text x="57.20" y="225.18" font-family="Liberation Serif, serif" font-size="13.5" font-weight="400" fill="#10233D" text-anchor="middle" transform="rotate(440.00 57.20 225.18)">M</text>
+    
+    <text x="200.0" y="214.4" font-family="Liberation Serif, serif" font-size="100.8" fill="#10233D" text-anchor="middle" font-weight="500">A</text>
+    <line x1="155.4" y1="198.6" x2="244.6" y2="198.6" stroke="#10233D" stroke-width="2.88"/>
+    <text x="200.0" y="269.8" font-family="Liberation Serif, serif" font-size="72.0" fill="#B98D3E" text-anchor="middle" font-weight="500">Q</text>
+    
+    </svg>

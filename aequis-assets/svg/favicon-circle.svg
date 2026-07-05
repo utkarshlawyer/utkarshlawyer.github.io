@@ -1,0 +1,9 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="256" cy="256" r="252" fill="#FFFFFF"/>
+    <circle cx="256" cy="256" r="244" fill="none" stroke="#B98D3E" stroke-width="3"/>
+    
+    <text x="256.0" y="263.2" font-family="Liberation Serif, serif" font-size="189.0" fill="#10233D" text-anchor="middle" font-weight="500">A</text>
+    <line x1="172.3" y1="233.6" x2="339.7" y2="233.6" stroke="#10233D" stroke-width="5.40"/>
+    <text x="256.0" y="367.2" font-family="Liberation Serif, serif" font-size="135.0" fill="#B98D3E" text-anchor="middle" font-weight="500">Q</text>
+    
+    </svg>

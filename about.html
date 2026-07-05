@@ -3,37 +3,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Utkarsh Kumar — Advocate | Supreme Court of India | Aequis Legal</title>
-  <meta name="description" content="Utkarsh Kumar is an advocate practising before the Supreme Court of India, Delhi HC and Allahabad HC. RMLNLU alumnus specialising in arbitration, corporate, constitutional and criminal law. New Delhi." />
-  <meta name="keywords" content="Utkarsh Kumar advocate, Supreme Court advocate New Delhi, RMLNLU lawyer India, arbitration lawyer New Delhi, corporate lawyer Supreme Court India, IBC NCLT advocate Delhi, constitutional lawyer India, criminal lawyer Delhi, Aequis Legal" />
-  <meta name="author" content="Utkarsh Kumar, Advocate" />
+  <title>People | Aequis Legal | Utkarsh Kumar &amp; Shireesh Kumar</title>
+  <meta name="description" content="Meet Advocates Utkarsh Kumar and Shireesh Kumar of Aequis Legal. Supreme Court, High Court, arbitration, public law, regulatory and institutional litigation practice." />
+  <meta name="keywords" content="Aequis Legal people, Utkarsh Kumar advocate Aequis Legal, Shireesh Kumar advocate Aequis Legal, Supreme Court advocate New Delhi, senior advocate Uttar Pradesh, RERA counsel, public law counsel India" />
+  <meta name="author" content="Aequis Legal" />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <link rel="canonical" href="https://aequislegal.com/about.html" />
   <!-- Geo — local SEO -->
   <meta name="geo.region" content="IN-DL" />
   <meta name="geo.placename" content="New Delhi, India" />
   <!-- Open Graph -->
-  <meta property="og:type"        content="profile" />
+  <meta property="og:type"        content="website" />
   <meta property="og:url"         content="https://aequislegal.com/about.html" />
-  <meta property="og:title"       content="Utkarsh Kumar — Advocate & Founder | Aequis Legal" />
-  <meta property="og:description" content="Advocate practising before the Supreme Court of India, Delhi HC and Allahabad HC. Arbitration, constitutional, corporate and criminal law. New Delhi." />
-  <meta property="og:image"       content="https://aequislegal.com/img/utkarsh-kumar.jpg" />
+  <meta property="og:title"       content="People | Aequis Legal" />
+  <meta property="og:description" content="Advocates Utkarsh Kumar and Shireesh Kumar lead Aequis Legal's litigation, advisory, public law and regulatory practice." />
+  <meta property="og:image"       content="https://aequislegal.com/aequis-assets/png/primary-logo-light.png" />
   <meta property="og:locale"      content="en_IN" />
   <meta property="og:site_name"   content="Aequis Legal" />
   <!-- Twitter Card -->
   <meta name="twitter:card"        content="summary_large_image" />
-  <meta name="twitter:title"       content="Utkarsh Kumar — Advocate & Founder | Aequis Legal" />
-  <meta name="twitter:description" content="Practising before the Supreme Court of India, Delhi HC and Allahabad HC. Arbitration, constitutional, corporate and criminal law." />
-  <meta name="twitter:image"       content="https://aequislegal.com/img/utkarsh-kumar.jpg" />
-  <!-- Structured Data: Person -->
+  <meta name="twitter:title"       content="People | Aequis Legal" />
+  <meta name="twitter:description" content="Advocates Utkarsh Kumar and Shireesh Kumar of Aequis Legal." />
+  <meta name="twitter:image"       content="https://aequislegal.com/aequis-assets/png/primary-logo-light.png" />
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/svg+xml" href="aequis-assets/svg/favicon-circle.svg" />
+  <link rel="apple-touch-icon" href="aequis-assets/png/favicon-circle.png" />
+  <!-- Structured Data: People -->
   <script type="application/ld+json">
-  {
+  [{
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Utkarsh Kumar",
-    "jobTitle": "Advocate",
+    "jobTitle": "Advocate and Founder",
     "description": "Litigation advocate practising before the Supreme Court of India, Delhi High Court and Allahabad High Court, specialising in civil, corporate, arbitration, constitutional and criminal matters.",
-    "url": "https://aequislegal.com/about.html",
+    "url": "https://aequislegal.com/about.html#utkarsh-kumar",
     "image": "https://aequislegal.com/img/utkarsh-kumar.jpg",
     "email": "utkarsh@aequislegal.com",
     "telephone": "+918948268809",
@@ -52,7 +55,8 @@
     "worksFor": {
       "@type": "LegalService",
       "name": "Aequis Legal",
-      "url": "https://aequislegal.com/"
+      "url": "https://aequislegal.com/",
+      "logo": "https://aequislegal.com/aequis-assets/png/primary-logo-light.png"
     },
     "knowsAbout": [
       "Supreme Court of India",
@@ -66,7 +70,31 @@
       "Criminal Law",
       "Service Law"
     ]
-  }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Shireesh Kumar",
+    "jobTitle": "Senior Advocate and Partner",
+    "description": "Senior advocate and partner at Aequis Legal, enrolled since February 1989 and engaged by public authorities, regulatory bodies, banks and state corporations.",
+    "url": "https://aequislegal.com/about.html#shireesh-kumar",
+    "image": "https://aequislegal.com/img/shireesh-kumar.jpg",
+    "worksFor": {
+      "@type": "LegalService",
+      "name": "Aequis Legal",
+      "url": "https://aequislegal.com/",
+      "logo": "https://aequislegal.com/aequis-assets/png/primary-logo-light.png"
+    },
+    "knowsAbout": [
+      "Public Law",
+      "Regulatory Law",
+      "RERA",
+      "Municipal Law",
+      "Government Counsel Work",
+      "Banking Litigation",
+      "Institutional Litigation"
+    ]
+  }]
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -96,6 +124,12 @@
       padding: clamp(56px, 8vw, 112px) 0;
       border-bottom: 1px solid var(--border);
     }
+    .person-layout:last-child { border-bottom: none; }
+    .person-layout--reverse {
+      grid-template-columns: 1fr 380px;
+    }
+    .person-layout--reverse .person-photo-col { order: 2; }
+    .person-layout--reverse .person-bio-col { order: 1; }
 
     /* Photo column */
     .person-photo-col { position: sticky; top: 96px; }
@@ -124,6 +158,7 @@
       object-position: top center;
       transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
     }
+    .person-photo-wrap--landscape img { object-position: center top; }
     .person-photo-wrap:hover img {
       transform: scale(1.03);
     }
@@ -234,7 +269,10 @@
 
     /* Responsive */
     @media (max-width: 900px) {
-      .person-layout { grid-template-columns: 1fr; }
+      .person-layout,
+      .person-layout--reverse { grid-template-columns: 1fr; }
+      .person-layout--reverse .person-photo-col,
+      .person-layout--reverse .person-bio-col { order: initial; }
       .person-photo-col { position: static; max-width: 340px; }
     }
     @media (max-width: 480px) {
@@ -247,7 +285,7 @@
 <header class="site-header scrolled" id="siteHeader">
   <nav class="nav-wrap">
     <a href="index.html" class="nav-brand">
-      <span class="nav-emblem">⚖</span>
+      <img class="brand-mark" src="aequis-assets/svg/favicon-circle.svg" alt="" />
       <div class="nav-brand-text">
         <span class="nav-firm">AEQUIS LEGAL</span>
         <span class="nav-sub">Advocates &amp; Solicitors</span>
@@ -275,7 +313,7 @@
 <!-- Person Profile -->
 <section>
   <div class="container">
-    <div class="person-layout">
+    <div class="person-layout" id="utkarsh-kumar">
 
       <!-- Photo Column -->
       <div class="person-photo-col">
@@ -388,6 +426,102 @@
 
       </div>
     </div>
+
+    <div class="person-layout person-layout--reverse" id="shireesh-kumar">
+
+      <!-- Photo Column -->
+      <div class="person-photo-col">
+        <div class="person-photo-wrap person-photo-wrap--landscape">
+          <img
+            src="img/shireesh-kumar.jpg"
+            alt="Advocate Shireesh Kumar — Partner, Aequis Legal"
+            loading="lazy"
+          />
+          <div class="photo-name-badge">
+            <span>Adv. Shireesh Kumar</span>
+          </div>
+        </div>
+
+        <!-- Credential tags -->
+        <div class="person-tags">
+          <div class="ptag">
+            <span class="ptag-lbl">Since</span>
+            <span class="ptag-val">Enrolled as an advocate in February 1989</span>
+          </div>
+          <div class="ptag">
+            <span class="ptag-lbl">Role</span>
+            <span class="ptag-val">Senior Advocate · Partner, Aequis Legal</span>
+          </div>
+          <div class="ptag">
+            <span class="ptag-lbl">Focus</span>
+            <span class="ptag-val">Public bodies · Regulatory authorities · Institutional litigation</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bio Column -->
+      <div class="person-bio-col">
+        <h1 class="person-name">Shireesh Kumar</h1>
+        <p class="person-title">Senior Advocate · Partner, Aequis Legal</p>
+
+        <p class="person-lede">
+          More than three decades of advocacy across public institutions, regulatory bodies, 
+          development authorities, transport undertakings and banking disputes.
+        </p>
+
+        <div class="person-bio">
+          <p>
+            Shireesh Kumar has been enrolled as an advocate since <strong>February 1989</strong> 
+            and has remained in active practice ever since. His work brings Aequis Legal 
+            a senior institutional perspective shaped by sustained engagement with public 
+            authorities, state corporations and regulatory forums.
+          </p>
+          <p>
+            He has been engaged as <strong>Special Counsel</strong> for 
+            <strong> U.P. Lucknow Nagar Nigam</strong> and the 
+            <strong> U.P. State Sugar Corporation</strong>, and has advised and represented 
+            public bodies in matters requiring practical command over administrative law, 
+            municipal governance, commercial disputes and statutory frameworks.
+          </p>
+          <p>
+            His institutional work includes engagements for 
+            <strong> Uttar Pradesh RERA, Uttar Pradesh Pradeshik Co-operative Federation, 
+            Lucknow Development Authority, U.P. Awas Evam Vikas Parishad, UPSRTC, 
+            U.P. State Road Transport Corporation, Allahabad Bank, IDBI</strong> and 
+            <strong> U.P. Metro Rail Corporation Limited</strong>.
+          </p>
+          <p>
+            At Aequis Legal, he strengthens the firm's public law, regulatory and 
+            institutional litigation practice, particularly in matters where experience 
+            before government bodies and statutory authorities is central to the strategy.
+          </p>
+        </div>
+
+        <div class="person-areas">
+          <p class="person-areas-label">Areas of Practice</p>
+          <div class="person-areas-grid">
+            <span class="pa-item">Public Law</span>
+            <span class="pa-item">Regulatory Proceedings</span>
+            <span class="pa-item">RERA Matters</span>
+            <span class="pa-item">Municipal Law</span>
+            <span class="pa-item">Institutional Litigation</span>
+            <span class="pa-item">Development Authority Matters</span>
+            <span class="pa-item">Transport Undertaking Disputes</span>
+            <span class="pa-item">Banking &amp; Recovery Matters</span>
+          </div>
+        </div>
+
+        <div class="person-contact">
+          <a href="mailto:utkarsh@aequislegal.com" class="pc-link">
+            ✉ &nbsp;utkarsh@aequislegal.com
+          </a>
+          <a href="index.html#contact" class="pc-link">
+            Send a brief →
+          </a>
+        </div>
+
+      </div>
+    </div>
   </div>
 </section>
 
@@ -396,7 +530,7 @@
   <div class="container">
     <div class="ft-top">
       <div class="ft-brand">
-        <span class="ft-emblem">⚖</span>
+        <img class="brand-mark" src="aequis-assets/svg/favicon-circle-dark.svg" alt="" />
         <div>
           <span class="ft-firm">AEQUIS LEGAL</span>
           <span class="ft-sub">Advocates &amp; Solicitors</span>

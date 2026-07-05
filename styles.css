@@ -1,21 +1,21 @@
 /* ============================================================
    AEQUIS LEGAL — STYLESHEET
-   Professional light-blue brand theme, typography-led
+   Professional Aequis Legal brand theme, typography-led
    ============================================================ */
 
 /* ── Variables ───────────────────────────────────── */
 :root {
-  --ink:       #0f172a;
-  --ink-mid:   #334155;
-  --ink-light: #7a8fa8;
-  --paper:     #f0f8ff;
+  --ink:       #10233d;
+  --ink-mid:   #374151;
+  --ink-light: #7a7467;
+  --paper:     #f4efe4;
   --white:     #ffffff;
-  --border:    #bdd5ea;
-  --gold:      #1565a3;
-  --gold-pale: #dbeafe;
-  --navy:      #0d2040;
-  --navy-mid:  #1a3a6e;
-  --accent:    #1d4ed8;
+  --border:    #dfd2bd;
+  --gold:      #b98d3e;
+  --gold-pale: #f0e2ca;
+  --navy:      #10233d;
+  --navy-mid:  #233c5c;
+  --accent:    #8f682a;
 
   --f-serif:  'Cormorant Garamond', Georgia, serif;
   --f-sans:   'Inter', system-ui, sans-serif;
@@ -67,9 +67,12 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   display: flex; align-items: center; gap: 14px;
   margin-bottom: 2rem;
 }
-.bci-emblem {
-  font-size: 2.2rem; color: var(--gold); line-height: 1;
+.brand-mark {
+  display: block;
+  width: 44px; height: 44px;
+  object-fit: contain; flex-shrink: 0;
 }
+.bci-logo .brand-mark { width: 52px; height: 52px; }
 .bci-firm-name {
   display: block;
   font-family: var(--f-title); font-size: 1.3rem; font-weight: 600;
@@ -148,9 +151,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 .nav-brand {
   display: flex; align-items: center; gap: 12px; z-index: 10;
 }
-.nav-emblem {
-  font-size: 1.6rem; color: var(--gold); transition: color var(--dur);
-}
+.nav-brand .brand-mark { width: 38px; height: 38px; }
 .nav-brand-text { display: flex; flex-direction: column; line-height: 1; }
 .nav-firm {
   font-family: var(--f-title); font-size: 1.1rem; font-weight: 600;
@@ -376,6 +377,12 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   transition: height 0.4s var(--ease);
 }
 .exp-card:hover::after { height: 100%; }
+
+.exp-icon {
+  width: 42px; height: 42px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
 
 .exp-n {
   display: block;
@@ -724,7 +731,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   flex-wrap: wrap; gap: 20px;
 }
 .ft-brand { display: flex; align-items: center; gap: 14px; }
-.ft-emblem { font-size: 1.8rem; color: var(--gold); }
+.ft-brand .brand-mark { width: 42px; height: 42px; }
 .ft-firm {
   display: block; font-family: var(--f-title); font-size: 1rem;
   color: var(--white); letter-spacing: 0.12em;
